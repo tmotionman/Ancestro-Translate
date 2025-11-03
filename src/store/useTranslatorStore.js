@@ -8,8 +8,9 @@ const useTranslatorStore = create(
     persist(
       (set, get) => ({
         // State
-        sourceLanguage: 'ny', // Can be 'ny' or 'en'
-        targetLanguage: 'en', // Can be 'ny' or 'en'
+  // Default app startup language: English -> Nyanja
+  sourceLanguage: 'en', // Can be 'ny' or 'en'
+  targetLanguage: 'ny', // Can be 'ny' or 'en'
         inputText: '',
         translatedText: '',
         isLoading: false,

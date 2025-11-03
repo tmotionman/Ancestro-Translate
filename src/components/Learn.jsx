@@ -82,7 +82,8 @@ export const Learn = () => {
         variants={containerVariants}
         initial="hidden"
         animate="visible"
-        className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6"
+        // show 2 columns on mobile, keep 3 on large screens
+        className="grid grid-cols-2 sm:grid-cols-2 lg:grid-cols-3 gap-6"
       >
         {words.map((word, index) => (
           <motion.div key={index} variants={itemVariants}>
