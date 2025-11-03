@@ -30,7 +30,8 @@ export const SplashScreen = ({ onComplete }) => {
       {/* Animated background elements */}
       <div className="absolute inset-0 pointer-events-none">
         <motion.div
-          className="absolute top-20 left-20 w-96 h-96 bg-[#ff4e00]/10 rounded-full blur-3xl"
+            // responsive: smaller and closer on mobile, larger on desktop
+            className="absolute top-10 left-4 sm:top-20 sm:left-20 w-56 h-56 sm:w-96 sm:h-96 bg-[#ff4e00]/10 rounded-full blur-3xl"
           animate={{
             x: [0, 100, 0],
             y: [0, 50, 0],
@@ -42,7 +43,8 @@ export const SplashScreen = ({ onComplete }) => {
           }}
         />
         <motion.div
-          className="absolute bottom-20 right-20 w-96 h-96 bg-[#ff4e00]/5 rounded-full blur-3xl"
+            // responsive: smaller and closer on mobile, larger on desktop
+            className="absolute bottom-10 right-4 sm:bottom-20 sm:right-20 w-56 h-56 sm:w-96 sm:h-96 bg-[#ff4e00]/5 rounded-full blur-3xl"
           animate={{
             x: [0, -100, 0],
             y: [0, -50, 0],
@@ -61,30 +63,31 @@ export const SplashScreen = ({ onComplete }) => {
           variants={containerVariants}
           initial="hidden"
           animate="visible"
-          className="text-center space-y-8 max-w-lg"
+         // make max width adapt to smaller screens
+         className="text-center space-y-6 max-w-md sm:max-w-lg"
         >
           {/* Logo */}
           <motion.div variants={itemVariants} className="flex justify-center">
             <motion.img
               src={TranslateLogo}
               alt="Translate logo"
-              className="w-24 h-24 object-contain"
+            className="w-20 h-20 sm:w-24 sm:h-24 md:w-28 md:h-28 object-contain"
             />
           </motion.div>
 
           {/* Main Title */}
           <motion.div variants={itemVariants} className="space-y-2 text-center">
             <h1 className="text-4xl sm:text-5xl font-bold text-white leading-tight">
-              Welcome to Ancestro Translate.
+            Welcome to Ancestro Translate.
             </h1>
 
             <div className="mt-1">
-              <p className="text-2xl sm:text-3xl font-semibold mb-1">
+              <p className="text-xl sm:text-2xl font-semibold mb-1">
                 <span className="bg-gradient-to-r from-[#ff4e00] to-orange-400 bg-clip-text text-transparent">
                   Break free from
                 </span>
               </p>
-              <p className="text-2xl sm:text-3xl font-semibold">
+              <p className="text-xl sm:text-2xl font-semibold">
                 <span className="bg-gradient-to-r from-[#ff4e00] to-orange-400 bg-clip-text text-transparent">
                   Language Barriers
                 </span>
@@ -98,13 +101,14 @@ export const SplashScreen = ({ onComplete }) => {
           <motion.div variants={itemVariants} className="pt-6">
             <div className="w-full overflow-hidden">
               <motion.div
-                className="flex items-center space-x-6 w-max"
+                  // reduce spacing on mobile and flag sizes
+                  className="flex items-center space-x-4 sm:space-x-6 w-max"
                 animate={{ x: ["0%", "-50%"] }}
                 transition={{ duration: 18, repeat: Infinity, ease: 'linear' }}
               >
                 {/* block 1 */}
                 <div className="flex items-center space-x-4 pr-6">
-                  <div className="w-12 h-8 rounded-md overflow-hidden">
+              <div className="w-10 h-6 sm:w-12 sm:h-8 rounded-md overflow-hidden">
                     {/* Zambia (simplified) */}
                     <svg viewBox="0 0 60 30" className="w-full h-full">
                       <rect width="60" height="30" fill="#006b3f" />
@@ -117,7 +121,7 @@ export const SplashScreen = ({ onComplete }) => {
                     </svg>
                   </div>
 
-                  <div className="w-12 h-8 rounded-md overflow-hidden">
+                  <div className="w-10 h-6 sm:w-12 sm:h-8 rounded-md overflow-hidden">
                     <svg viewBox="0 0 60 30" className="w-full h-full">
                       <rect width="60" height="30" fill="#012169" />
                       <rect y="12" width="60" height="6" fill="white" />
@@ -127,7 +131,7 @@ export const SplashScreen = ({ onComplete }) => {
                     </svg>
                   </div>
 
-                  <div className="w-12 h-8 rounded-md overflow-hidden">
+                  <div className="w-10 h-6 sm:w-12 sm:h-8 rounded-md overflow-hidden">
                     <svg viewBox="0 0 30 20" className="w-full h-full">
                       <rect width="30" height="20" fill="#b22234"/>
                       <rect y="4" width="30" height="2" fill="white"/>
@@ -137,7 +141,7 @@ export const SplashScreen = ({ onComplete }) => {
                     </svg>
                   </div>
 
-                  <div className="w-12 h-8 rounded-md overflow-hidden">
+                  <div className="w-10 h-6 sm:w-12 sm:h-8 rounded-md overflow-hidden">
                     <svg viewBox="0 0 60 30" className="w-full h-full">
                       <rect width="60" height="30" fill="#007749"/>
                       <polygon points="0,0 22,15 0,30" fill="#000"/>
@@ -146,7 +150,7 @@ export const SplashScreen = ({ onComplete }) => {
                     </svg>
                   </div>
 
-                  <div className="w-12 h-8 rounded-md overflow-hidden flex items-center justify-center bg-white">
+                  <div className="w-10 h-6 sm:w-12 sm:h-8 rounded-md overflow-hidden flex items-center justify-center bg-white">
                     <svg viewBox="0 0 24 24" className="w-5 h-5">
                       <circle cx="12" cy="12" r="10" fill="#2e0151" />
                       <path d="M2 12h20M12 2v20M4 6a16 16 0 0 0 16 0M4 18a16 16 0 0 1 16 0" stroke="#fff" strokeWidth="0.8" fill="none" />
@@ -212,14 +216,14 @@ export const SplashScreen = ({ onComplete }) => {
             variants={itemVariants}
             className="pt-6"
           >
-            <motion.button
-              onClick={onComplete}
-              className="px-8 py-3 rounded-full bg-gradient-to-r from-[#ff4e00] to-orange-500 text-white font-semibold shadow-lg hover:shadow-xl transition-shadow"
-              whileHover={{ scale: 1.05 }}
-              whileTap={{ scale: 0.95 }}
-            >
-              Get Started
-            </motion.button>
+              <motion.button
+                onClick={onComplete}
+                className="px-6 py-2 sm:px-8 sm:py-3 rounded-full bg-gradient-to-r from-[#ff4e00] to-orange-500 text-white font-semibold shadow-lg hover:shadow-xl transition-shadow"
+                whileHover={{ scale: 1.03 }}
+                whileTap={{ scale: 0.97 }}
+              >
+                Get Started
+              </motion.button>
           </motion.div>
 
           {/* Powered by line on splash screen */}

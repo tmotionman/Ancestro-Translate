@@ -56,17 +56,7 @@ export const About = () => {
       className="w-full max-w-5xl mx-auto space-y-8"
     >
             {/* Header */}
-            <motion.div variants={itemVariants} className="text-center space-y-4">
-              <div className="flex justify-center mb-4">
-                <img
-                  src={TranslateLogo}
-                  alt="Ancestro Translate"
-                  className="w-20 h-20 object-contain"
-                />
-              </div>
-              <h1 className="text-4xl sm:text-5xl font-bold bg-gradient-to-r from-[#2e0151] to-[#ff4e00] bg-clip-text text-transparent">
-                Ancestro Translate
-              </h1>
+            <motion.div variants={itemVariants} className="text-center space-y-2">
               <p className="text-xl text-gray-600 dark:text-gray-300">
                 Breaking down language barriers across African languages
               </p>

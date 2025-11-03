@@ -38,14 +38,8 @@ export const Learn = () => {
         initial={{ opacity: 0, y: -20 }}
         animate={{ opacity: 1, y: 0 }}
         transition={{ delay: 0.2 }}
-        className="text-center space-y-3"
+        className="text-center"
       >
-        <div className="flex items-center justify-center gap-3 mb-2">
-          <BookOpen className="w-8 h-8 text-[#ff4e00]" />
-          <h2 className="text-4xl font-bold bg-gradient-to-r from-[#2e0151] to-[#ff4e00] bg-clip-text text-transparent">
-            Learn Words
-          </h2>
-        </div>
         <p className="text-muted-foreground">
           Select a category and click cards to flip and learn
         </p>

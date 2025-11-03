@@ -126,10 +126,13 @@ export const TranslatorCard = () => {
           </div>
         </div>
 
+        {/* Divider between input and results */}
+        <div className="w-full border-t border-border/50 my-4" />
+
         {/* Output Section */}
         <div className="space-y-3">
           <label className="text-sm font-semibold uppercase tracking-wide">{languageNames[targetLanguage]} translation:</label>
-          <div className="relative min-h-12 p-4 rounded-lg bg-muted/50 border border-border">
+          <div className="relative min-h-16 p-4 rounded-lg bg-card border border-border/50 shadow-sm">
             <AnimatePresence mode="wait">
               {isLoading ? (
                 <motion.div
@@ -163,7 +166,7 @@ export const TranslatorCard = () => {
                   exit={{ opacity: 0, y: -10 }}
                   className="space-y-3"
                 >
-                  <p className="text-lg font-medium">{translatedText}</p>
+                  <p className="text-lg font-medium text-foreground">{translatedText}</p>
                   <div className="flex gap-2 mt-3">
                     <Button
                       size="sm"
@@ -196,16 +199,7 @@ export const TranslatorCard = () => {
                   {error}
                 </motion.div>
               ) : (
-                <motion.div
-                  key="placeholder"
-                  initial={{ opacity: 0 }}
-                  animate={{ opacity: 1 }}
-                  exit={{ opacity: 0 }}
-                  className="flex items-center gap-2 text-muted-foreground text-sm"
-                >
-                  <Search size={16} />
-                  <span>Type a word to see the translation</span>
-                </motion.div>
+                null
               )}
             </AnimatePresence>
           </div>

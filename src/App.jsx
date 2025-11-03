@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import { motion } from 'framer-motion';
+import { Search, BookOpen, Clock } from 'lucide-react';
 import { Toaster } from 'react-hot-toast';
 import TranslateLogo from '../ASSETS/Translate logo.svg';
 import { TranslatorCard } from './components/TranslatorCard';
@@ -65,7 +66,7 @@ function App() {
             <div className="flex items-center justify-center">
               <img src={TranslateLogo} alt="Translate logo" className="w-10 h-10 object-contain" />
             </div>
-            <h1 className="text-xl font-bold hidden sm:block text-white mr-4">
+            <h1 className="text-lg sm:text-xl font-bold text-white mr-4">
               Translate
             </h1>
           </motion.div>
@@ -76,16 +77,14 @@ function App() {
             transition={{ delay: 0.2 }}
             className="flex items-center gap-4"
           >
-            <nav className="hidden sm:flex items-center gap-3">
-              <a href="https://ancestro.pages.dev/about" target="_blank" rel="noopener noreferrer" className="text-white text-sm hover:text-[#ffddcc] transition-colors">Ancestro</a>
-            </nav>
+            {/* Ancestro link removed per request */}
             <ThemeToggle />
           </motion.div>
         </header>
 
         {/* Tab Navigation (fixed, below header) */}
         <div className="fixed top-20 left-0 right-0 z-40 bg-background flex justify-center border-b border-border/50 h-16">
-          <div className="w-full max-w-2xl flex gap-4 px-4 sm:px-0">
+          <div className="w-full max-w-2xl flex gap-4 px-4 sm:px-0 justify-center">
             <button
               onClick={() => setActiveTab('translate')}
               className={`pb-3 px-4 font-semibold text-sm transition-all ${
@@ -133,12 +132,20 @@ function App() {
                     transition={{ delay: 0.2 }}
                     className="text-center space-y-2 mb-8"
                   >
-                    <h2 className="text-4xl font-bold bg-gradient-to-r from-[#2e0151] to-[#ff4e00] bg-clip-text text-transparent">
-                      Translate
-                    </h2>
+                    {/* H2 removed per request */}
                     <p className="text-muted-foreground text-lg">
-                      Instantly translate words — fast and simple
+                      Instantly translate words fast and simple
                     </p>
+                  </motion.div>
+
+                  {/* Tip displayed at top of Translate tab */}
+                  <motion.div
+                    initial={{ opacity: 0 }}
+                    animate={{ opacity: 1 }}
+                    transition={{ delay: 0.25 }}
+                    className="text-center mb-4"
+                  >
+                    <p className="text-sm text-muted-foreground">💡 Type a single word to reveal the translation.</p>
                   </motion.div>
 
                   {/* Translator Card */}
@@ -149,6 +156,7 @@ function App() {
                   >
                     <TranslatorCard />
                   </motion.div>
+
 
                   {/* Recent Searches */}
                   <motion.div
@@ -168,32 +176,32 @@ function App() {
                   >
                     {[
                       {
-                        icon: '🔍',
+                        icon: <Search className="w-8 h-8 mx-auto text-[#2e0151]" />,
                         title: 'Instant Translation',
                         description: 'Real-time translation as you type',
                       },
                       {
-                        icon: '📚',
+                        icon: <BookOpen className="w-8 h-8 mx-auto text-[#2e0151]" />,
                         title: 'Rich Dictionary',
                         description: '300+ Nyanja words with English meanings',
                       },
                       {
-                        icon: '💾',
+                        icon: <Clock className="w-8 h-8 mx-auto text-[#2e0151]" />,
                         title: 'Search History',
-                    description: 'Your recent translations are saved',
-                  },
-                ].map((feature, index) => (
-                  <motion.div
-                    key={index}
-                    className="p-4 rounded-lg bg-card border border-border/50 text-center hover:shadow-md transition-shadow"
-                    whileHover={{ y: -4 }}
-                  >
-                    <div className="text-2xl mb-2">{feature.icon}</div>
-                    <h3 className="font-semibold text-sm">{feature.title}</h3>
-                    <p className="text-xs text-muted-foreground mt-1">{feature.description}</p>
+                        description: 'Your recent translations are saved',
+                      },
+                    ].map((feature, index) => (
+                      <motion.div
+                        key={index}
+                        className="p-4 rounded-lg bg-card border border-border/50 text-center hover:shadow-md transition-shadow"
+                        whileHover={{ y: -4 }}
+                      >
+                        <div className="mb-2">{feature.icon}</div>
+                        <h3 className="font-semibold text-sm">{feature.title}</h3>
+                        <p className="text-xs text-muted-foreground mt-1">{feature.description}</p>
+                      </motion.div>
+                    ))}
                   </motion.div>
-                ))}
-              </motion.div>
                 </>
               )}
 
