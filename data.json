@@ -1,0 +1,2870 @@
+[
+  {
+    "en": "love",
+    "ny": "chikondi"
+  },
+  {
+    "en": "peace",
+    "ny": "mutendere"
+  },
+  {
+    "en": "war",
+    "ny": "nkondo"
+  },
+  {
+    "en": "truth",
+    "ny": "chowonadi"
+  },
+  {
+    "en": "lie",
+    "ny": "dodaz"
+  },
+  {
+    "en": "life",
+    "ny": "moyo"
+  },
+  {
+    "en": "death",
+    "ny": "imfa"
+  },
+  {
+    "en": "darkness",
+    "ny": "mdima"
+  },
+  {
+    "en": "time",
+    "ny": "nthawi"
+  },
+  {
+    "en": "home",
+    "ny": "kunyumba"
+  },
+  {
+    "en": "family",
+    "ny": "banja"
+  },
+  {
+    "en": "friendship",
+    "ny": "ubwenzi"
+  },
+  {
+    "en": "health",
+    "ny": "thanzi"
+  },
+  {
+    "en": "freedom",
+    "ny": "ufulu"
+  },
+  {
+    "en": "eagle",
+    "ny": "mphungu"
+  },
+  {
+    "en": "owl",
+    "ny": "kadzidzi"
+  },
+  {
+    "en": "dove",
+    "ny": "kuti"
+  },
+  {
+    "en": "pigeon",
+    "ny": "nkhunda"
+  },
+  {
+    "en": "crow",
+    "ny": "khwangwala"
+  },
+  {
+    "en": "vulture",
+    "ny": "mbulu"
+  },
+  {
+    "en": "cow",
+    "ny": "ng'ombe"
+  },
+  {
+    "en": "goat",
+    "ny": "mbuzi"
+  },
+  {
+    "en": "sheep",
+    "ny": "nkhosa"
+  },
+  {
+    "en": "pig",
+    "ny": "nkhumba"
+  },
+  {
+    "en": "chicken",
+    "ny": "nkhuku"
+  },
+  {
+    "en": "hen",
+    "ny": "nkhombwe"
+  },
+  {
+    "en": "rooster",
+    "ny": "tambala"
+  },
+  {
+    "en": "duck",
+    "ny": "bakha"
+  },
+  {
+    "en": "donkey",
+    "ny": "bulu"
+  },
+  {
+    "en": "horse",
+    "ny": "kavalo"
+  },
+  {
+    "en": "ant",
+    "ny": "nyelele"
+  },
+  {
+    "en": "bee",
+    "ny": "zinmu"
+  },
+  {
+    "en": "butterfly",
+    "ny": "gulugufe"
+  },
+  {
+    "en": "mosquito",
+    "ny": "udzudzu"
+  },
+  {
+    "en": "fly",
+    "ny": "ize"
+  },
+  {
+    "en": "termite",
+    "ny": "chiswe"
+  },
+  {
+    "en": "grasshopper",
+    "ny": "tenti"
+  },
+  {
+    "en": "cockroach",
+    "ny": "mphemvu"
+  },
+  {
+    "en": "lion",
+    "ny": "kanlamu"
+  },
+  {
+    "en": "elephant",
+    "ny": "njovu"
+  },
+  {
+    "en": "monkey",
+    "ny": "kholwe"
+  },
+  {
+    "en": "leopard",
+    "ny": "nyalugwe"
+  },
+  {
+    "en": "snake",
+    "ny": "njoka"
+  },
+  {
+    "en": "account",
+    "ny": "akaunti"
+  },
+  {
+    "en": "credit",
+    "ny": "ngongole"
+  },
+  {
+    "en": "debt",
+    "ny": "ngongole"
+  },
+  {
+    "en": "withdraw",
+    "ny": "chotsani"
+  },
+  {
+    "en": "card",
+    "ny": "kadi"
+  },
+  {
+    "en": "cash",
+    "ny": "ndalama"
+  },
+  {
+    "en": "receipt",
+    "ny": "chiphaso"
+  },
+  {
+    "en": "tax",
+    "ny": "msonkho"
+  },
+  {
+    "en": "salary",
+    "ny": "malipiro"
+  },
+  {
+    "en": "wages",
+    "ny": "malipiro"
+  },
+  {
+    "en": "income",
+    "ny": "ndalama"
+  },
+  {
+    "en": "expense",
+    "ny": "ndalama"
+  },
+  {
+    "en": "shirt",
+    "ny": "malaya"
+  },
+  {
+    "en": "trousers",
+    "ny": "mathalauza"
+  },
+  {
+    "en": "dress",
+    "ny": "malaya"
+  },
+  {
+    "en": "skirt",
+    "ny": "sikiti"
+  },
+  {
+    "en": "shoes",
+    "ny": "nsapato"
+  },
+  {
+    "en": "sandals",
+    "ny": "nsapato"
+  },
+  {
+    "en": "hat",
+    "ny": "kasote"
+  },
+  {
+    "en": "coat",
+    "ny": "chovala"
+  },
+  {
+    "en": "socks",
+    "ny": "masokosi"
+  },
+  {
+    "en": "belt",
+    "ny": "lamba"
+  },
+  {
+    "en": "scarf",
+    "ny": "mpango"
+  },
+  {
+    "en": "gloves",
+    "ny": "magolovesi"
+  },
+  {
+    "en": "uniform",
+    "ny": "yunifolomu"
+  },
+  {
+    "en": "black",
+    "ny": "wakuda"
+  },
+  {
+    "en": "white",
+    "ny": "woyera"
+  },
+  {
+    "en": "red",
+    "ny": "wofiira"
+  },
+  {
+    "en": "blue",
+    "ny": "buluu"
+  },
+  {
+    "en": "green",
+    "ny": "wobiriwira"
+  },
+  {
+    "en": "grey",
+    "ny": "imvi"
+  },
+  {
+    "en": "purple",
+    "ny": "chibakuwa"
+  },
+  {
+    "en": "father",
+    "ny": "atate"
+  },
+  {
+    "en": "mother",
+    "ny": "amai"
+  },
+  {
+    "en": "child",
+    "ny": "bana"
+  },
+  {
+    "en": "brother",
+    "ny": "akalongosi"
+  },
+  {
+    "en": "friend",
+    "ny": "mudzanga"
+  },
+  {
+    "en": "people",
+    "ny": "bantu"
+  },
+  {
+    "en": "man",
+    "ny": "mwamuna"
+  },
+  {
+    "en": "woman",
+    "ny": "mukadzi"
+  },
+  {
+    "en": "house",
+    "ny": "nyumba"
+  },
+  {
+    "en": "school",
+    "ny": "sikulu"
+  },
+  {
+    "en": "church",
+    "ny": "mpingo"
+  },
+  {
+    "en": "market",
+    "ny": "masika"
+  },
+  {
+    "en": "road",
+    "ny": "msewu"
+  },
+  {
+    "en": "village",
+    "ny": "mudzi"
+  },
+  {
+    "en": "sun",
+    "ny": "dzuwa"
+  },
+  {
+    "en": "moon",
+    "ny": "mwezi"
+  },
+  {
+    "en": "star",
+    "ny": "nyenyezi"
+  },
+  {
+    "en": "rain",
+    "ny": "mvula"
+  },
+  {
+    "en": "water",
+    "ny": "madzi"
+  },
+  {
+    "en": "fire",
+    "ny": "moto"
+  },
+  {
+    "en": "earth",
+    "ny": "dziko lapansi"
+  },
+  {
+    "en": "sky",
+    "ny": "kumwamba"
+  },
+  {
+    "en": "tree",
+    "ny": "mtengo"
+  },
+  {
+    "en": "animal",
+    "ny": "nyama"
+  },
+  {
+    "en": "bird",
+    "ny": "nyoni"
+  },
+  {
+    "en": "dog",
+    "ny": "galu"
+  },
+  {
+    "en": "fish",
+    "ny": "nsomba"
+  },
+  {
+    "en": "food",
+    "ny": "chakudya"
+  },
+  {
+    "en": "clothes",
+    "ny": "chovala"
+  },
+  {
+    "en": "money",
+    "ny": "ndalama"
+  },
+  {
+    "en": "phone",
+    "ny": "foni"
+  },
+  {
+    "en": "car",
+    "ny": "motoka"
+  },
+  {
+    "en": "bus",
+    "ny": "basi"
+  },
+  {
+    "en": "chair",
+    "ny": "mpando"
+  },
+  {
+    "en": "table",
+    "ny": "tebulo"
+  },
+  {
+    "en": "bed",
+    "ny": "bedi"
+  },
+  {
+    "en": "door",
+    "ny": "khomo"
+  },
+  {
+    "en": "book",
+    "ny": "buku"
+  },
+  {
+    "en": "pen",
+    "ny": "cholembera"
+  },
+  {
+    "en": "hello",
+    "ny": "bwanji"
+  },
+  {
+    "en": "goodbye",
+    "ny": "pitani bwino"
+  },
+  {
+    "en": "thank you",
+    "ny": "zikomo"
+  },
+  {
+    "en": "sorry",
+    "ny": "pepani"
+  },
+  {
+    "en": "please",
+    "ny": "chonde"
+  },
+  {
+    "en": "maybe",
+    "ny": "mwina"
+  },
+  {
+    "en": "welcome",
+    "ny": "olandiridwa"
+  },
+  {
+    "en": "good night",
+    "ny": "usiku wabwino"
+  },
+  {
+    "en": "good morning",
+    "ny": "m'mawa wabwino"
+  },
+  {
+    "en": "how are you",
+    "ny": "muli bwanji"
+  },
+  {
+    "en": "fine",
+    "ny": "chabwino"
+  },
+  {
+    "en": "help",
+    "ny": "thandizeni"
+  },
+  {
+    "en": "come here",
+    "ny": "bwerani kuno"
+  },
+  {
+    "en": "go there",
+    "ny": "yendani kuja"
+  },
+  {
+    "en": "go",
+    "ny": "pitani"
+  },
+  {
+    "en": "come",
+    "ny": "bwerani"
+  },
+  {
+    "en": "take",
+    "ny": "kutenga"
+  },
+  {
+    "en": "give",
+    "ny": "kupasa"
+  },
+  {
+    "en": "eat",
+    "ny": "kudya"
+  },
+  {
+    "en": "drink",
+    "ny": "kumwa"
+  },
+  {
+    "en": "see",
+    "ny": "onani"
+  },
+  {
+    "en": "look",
+    "ny": "yang'anani"
+  },
+  {
+    "en": "watch",
+    "ny": "penyani"
+  },
+  {
+    "en": "hear",
+    "ny": "kumva"
+  },
+  {
+    "en": "listen",
+    "ny": "mverani"
+  },
+  {
+    "en": "say",
+    "ny": "kamba"
+  },
+  {
+    "en": "tell",
+    "ny": "nenani"
+  },
+  {
+    "en": "ask",
+    "ny": "mfusa"
+  },
+  {
+    "en": "answer",
+    "ny": "yankho"
+  },
+  {
+    "en": "make",
+    "ny": "kupanga"
+  },
+  {
+    "en": "work",
+    "ny": "ntchito"
+  },
+  {
+    "en": "play",
+    "ny": "sewera"
+  },
+  {
+    "en": "run",
+    "ny": "thamanga"
+  },
+  {
+    "en": "walk",
+    "ny": "kuyenda"
+  },
+  {
+    "en": "sit",
+    "ny": "khalani"
+  },
+  {
+    "en": "stand",
+    "ny": "kuyimirira"
+  },
+  {
+    "en": "sleep",
+    "ny": "kugona"
+  },
+  {
+    "en": "wake",
+    "ny": "uka"
+  },
+  {
+    "en": "start",
+    "ny": "kuyamba"
+  },
+  {
+    "en": "stop",
+    "ny": "imani"
+  },
+  {
+    "en": "wait",
+    "ny": "yembekezani"
+  },
+  {
+    "en": "carry",
+    "ny": "nyamula"
+  },
+  {
+    "en": "bring",
+    "ny": "bweretsa"
+  },
+  {
+    "en": "chief",
+    "ny": "mfumu"
+  },
+  {
+    "en": "headman",
+    "ny": "kapaso"
+  },
+  {
+    "en": "leader",
+    "ny": "mtsogoleri"
+  },
+  {
+    "en": "king",
+    "ny": "mfumu"
+  },
+  {
+    "en": "queen",
+    "ny": "mfumukazi"
+  },
+  {
+    "en": "judge",
+    "ny": "woweruza"
+  },
+  {
+    "en": "law",
+    "ny": "lamulo"
+  },
+  {
+    "en": "rule",
+    "ny": "ulamuliro"
+  },
+  {
+    "en": "worker",
+    "ny": "wantchito"
+  },
+  {
+    "en": "citizen",
+    "ny": "nzika"
+  },
+  {
+    "en": "country",
+    "ny": "dziko"
+  },
+  {
+    "en": "I",
+    "ny": "ndi"
+  },
+  {
+    "en": "you",
+    "ny": "inu"
+  },
+  {
+    "en": "it",
+    "ny": "izo"
+  },
+  {
+    "en": "we",
+    "ny": "ife"
+  },
+  {
+    "en": "they",
+    "ny": "iwo"
+  },
+  {
+    "en": "me",
+    "ny": "ine"
+  },
+  {
+    "en": "us",
+    "ny": "ife"
+  },
+  {
+    "en": "them",
+    "ny": "iwo"
+  },
+  {
+    "en": "this",
+    "ny": "izi"
+  },
+  {
+    "en": "these",
+    "ny": "izi"
+  },
+  {
+    "en": "those",
+    "ny": "ivo"
+  },
+  {
+    "en": "who",
+    "ny": "ndani"
+  },
+  {
+    "en": "what",
+    "ny": "chani"
+  },
+  {
+    "en": "when",
+    "ny": "liti"
+  },
+  {
+    "en": "where",
+    "ny": "ku"
+  },
+  {
+    "en": "why",
+    "ny": "chifukwa"
+  },
+  {
+    "en": "how",
+    "ny": "bwanji"
+  },
+  {
+    "en": "is",
+    "ny": "ndi"
+  },
+  {
+    "en": "was",
+    "ny": "anali"
+  },
+  {
+    "en": "were",
+    "ny": "ku"
+  },
+  {
+    "en": "be",
+    "ny": "kukhala"
+  },
+  {
+    "en": "do",
+    "ny": "kuchita"
+  },
+  {
+    "en": "will",
+    "ny": "adzatero"
+  },
+  {
+    "en": "can",
+    "ny": "akhoza"
+  },
+  {
+    "en": "not",
+    "ny": "ayi"
+  },
+  {
+    "en": "no",
+    "ny": "ayi"
+  },
+  {
+    "en": "yes",
+    "ny": "inde"
+  },
+  {
+    "en": "all",
+    "ny": "zonse"
+  },
+  {
+    "en": "some",
+    "ny": "ena"
+  },
+  {
+    "en": "many",
+    "ny": "zambiri"
+  },
+  {
+    "en": "few",
+    "ny": "ochepa"
+  },
+  {
+    "en": "more",
+    "ny": "zambiri"
+  },
+  {
+    "en": "most",
+    "ny": "ambiri"
+  },
+  {
+    "en": "here",
+    "ny": "pano"
+  },
+  {
+    "en": "there",
+    "ny": "apo"
+  },
+  {
+    "en": "now",
+    "ny": "tospano"
+  },
+  {
+    "en": "then",
+    "ny": "ndiye"
+  },
+  {
+    "en": "today",
+    "ny": "lero"
+  },
+  {
+    "en": "tomorrow",
+    "ny": "mailo"
+  },
+  {
+    "en": "yesterday",
+    "ny": "dzulo"
+  },
+  {
+    "en": "on",
+    "ny": "pa"
+  },
+  {
+    "en": "at",
+    "ny": "ku"
+  },
+  {
+    "en": "from",
+    "ny": "kuchokera"
+  },
+  {
+    "en": "with",
+    "ny": "ndi"
+  },
+  {
+    "en": "for",
+    "ny": "za"
+  },
+  {
+    "en": "about",
+    "ny": "za"
+  },
+  {
+    "en": "under",
+    "ny": "pansi"
+  },
+  {
+    "en": "between",
+    "ny": "pakati"
+  },
+  {
+    "en": "after",
+    "ny": "pambuyo"
+  },
+  {
+    "en": "before",
+    "ny": "kale"
+  },
+  {
+    "en": "greeting",
+    "ny": "bwanji"
+  },
+  {
+    "en": "elders",
+    "ny": "akulu"
+  },
+  {
+    "en": "tradition",
+    "ny": "chitukuko"
+  },
+  {
+    "en": "storytelling",
+    "ny": "nkhani"
+  },
+  {
+    "en": "funeral",
+    "ny": "maliro"
+  },
+  {
+    "en": "witchcraft",
+    "ny": "ufiti"
+  },
+  {
+    "en": "bread",
+    "ny": "mkate"
+  },
+  {
+    "en": "meat",
+    "ny": "nyama"
+  },
+  {
+    "en": "rice",
+    "ny": "mpunga"
+  },
+  {
+    "en": "nshima",
+    "ny": "sima"
+  },
+  {
+    "en": "beer",
+    "ny": "mowa"
+  },
+  {
+    "en": "salt",
+    "ny": "mchere"
+  },
+  {
+    "en": "sugar",
+    "ny": "shuga"
+  },
+  {
+    "en": "oil",
+    "ny": "mafuta"
+  },
+  {
+    "en": "head",
+    "ny": "mutu"
+  },
+  {
+    "en": "hand",
+    "ny": "dzanja"
+  },
+  {
+    "en": "leg",
+    "ny": "mwendo"
+  },
+  {
+    "en": "eye",
+    "ny": "diso"
+  },
+  {
+    "en": "ear",
+    "ny": "khutu"
+  },
+  {
+    "en": "mouth",
+    "ny": "pakamwa"
+  },
+  {
+    "en": "nose",
+    "ny": "mphuno"
+  },
+  {
+    "en": "stomach",
+    "ny": "m'mimba"
+  },
+  {
+    "en": "heart",
+    "ny": "mtima"
+  },
+  {
+    "en": "sick",
+    "ny": "odwala"
+  },
+  {
+    "en": "pain",
+    "ny": "ululu"
+  },
+  {
+    "en": "medicine",
+    "ny": "mankhwala"
+  },
+  {
+    "en": "hospital",
+    "ny": "chipatala"
+  },
+  {
+    "en": "buy",
+    "ny": "kugula"
+  },
+  {
+    "en": "sell",
+    "ny": "kugulitsa"
+  },
+  {
+    "en": "price",
+    "ny": "mtengo"
+  },
+  {
+    "en": "expensive",
+    "ny": "okwera mutengo"
+  },
+  {
+    "en": "hate",
+    "ny": "kuzonda"
+  },
+  {
+    "en": "fear",
+    "ny": "mantha"
+  },
+  {
+    "en": "joy",
+    "ny": "chisangalalo"
+  },
+  {
+    "en": "anger",
+    "ny": "mkwiyo"
+  },
+  {
+    "en": "hope",
+    "ny": "chiyembekezo"
+  },
+  {
+    "en": "faith",
+    "ny": "chikhulupiriro"
+  },
+  {
+    "en": "trust",
+    "ny": "kudalira"
+  },
+  {
+    "en": "doubt",
+    "ny": "kukaikira"
+  },
+  {
+    "en": "shame",
+    "ny": "manyazi"
+  },
+  {
+    "en": "envy",
+    "ny": "nsanje"
+  },
+  {
+    "en": "excitement",
+    "ny": "chisangalalo"
+  },
+  {
+    "en": "excited",
+    "ny": "okondwa"
+  },
+  {
+    "en": "confused",
+    "ny": "osokonezeka"
+  },
+  {
+    "en": "hopeful",
+    "ny": "wachiyembekezo"
+  },
+  {
+    "en": "scared",
+    "ny": "mantha"
+  },
+  {
+    "en": "courage",
+    "ny": "kulimba mtima"
+  },
+  {
+    "en": "determined",
+    "ny": "wotsimikiza"
+  },
+  {
+    "en": "lazy",
+    "ny": "waulesi"
+  },
+  {
+    "en": "friendly",
+    "ny": "waubwenzi"
+  },
+  {
+    "en": "angry",
+    "ny": "wokwiya"
+  },
+  {
+    "en": "tired",
+    "ny": "wotopa"
+  },
+  {
+    "en": "hungry",
+    "ny": "wanjala"
+  },
+  {
+    "en": "sleepy",
+    "ny": "tulo"
+  },
+  {
+    "en": "afraid",
+    "ny": "mantha"
+  },
+  {
+    "en": "brave",
+    "ny": "wolimba mtima"
+  },
+  {
+    "en": "clever",
+    "ny": "wochenjera"
+  },
+  {
+    "en": "foolish",
+    "ny": "kupusa"
+  },
+  {
+    "en": "healthy",
+    "ny": "wathanzi"
+  },
+  {
+    "en": "ashamed",
+    "ny": "manyazi"
+  },
+  {
+    "en": "jealous",
+    "ny": "wansanje"
+  },
+  {
+    "en": "surprised",
+    "ny": "anadabwa"
+  },
+  {
+    "en": "power",
+    "ny": "mphamvu"
+  },
+  {
+    "en": "independence",
+    "ny": "kudziimira"
+  },
+  {
+    "en": "conflict",
+    "ny": "kukangana"
+  },
+  {
+    "en": "economy",
+    "ny": "chuma"
+  },
+  {
+    "en": "education",
+    "ny": "mapuzilo"
+  },
+  {
+    "en": "technology",
+    "ny": "luso"
+  },
+  {
+    "en": "dream",
+    "ny": "loto"
+  },
+  {
+    "en": "idea",
+    "ny": "lingaliro"
+  },
+  {
+    "en": "memory",
+    "ny": "kukumbukira"
+  },
+  {
+    "en": "plan",
+    "ny": "dongosolo"
+  },
+  {
+    "en": "past",
+    "ny": "kudala"
+  },
+  {
+    "en": "present",
+    "ny": "manje"
+  },
+  {
+    "en": "justice",
+    "ny": "chilungamo"
+  },
+  {
+    "en": "unity",
+    "ny": "kugwelizana"
+  },
+  {
+    "en": "development",
+    "ny": "chitukuko"
+  },
+  {
+    "en": "poverty",
+    "ny": "umphawi"
+  },
+  {
+    "en": "wealth",
+    "ny": "chuma"
+  },
+  {
+    "en": "growth",
+    "ny": "kukula"
+  },
+  {
+    "en": "rat",
+    "ny": "makoswe"
+  },
+  {
+    "en": "rabbit",
+    "ny": "kalulu"
+  },
+  {
+    "en": "frog",
+    "ny": "chule"
+  },
+  {
+    "en": "turtle",
+    "ny": "kamba"
+  },
+  {
+    "en": "lizard",
+    "ny": "buluzi"
+  },
+  {
+    "en": "hyena",
+    "ny": "fisi"
+  },
+  {
+    "en": "buffalo",
+    "ny": "njati"
+  },
+  {
+    "en": "rhino",
+    "ny": "chipembere"
+  },
+  {
+    "en": "hippopotamus",
+    "ny": "mvuu"
+  },
+  {
+    "en": "turkey",
+    "ny": "nkhukundembo"
+  },
+  {
+    "en": "swallow",
+    "ny": "kumeza"
+  },
+  {
+    "en": "locust",
+    "ny": "dzombe"
+  },
+  {
+    "en": "back",
+    "ny": "musana"
+  },
+  {
+    "en": "shoulder",
+    "ny": "phewa"
+  },
+  {
+    "en": "knee",
+    "ny": "bondo"
+  },
+  {
+    "en": "foot",
+    "ny": "phazi"
+  },
+  {
+    "en": "toe",
+    "ny": "ndiye"
+  },
+  {
+    "en": "finger",
+    "ny": "vikhumo"
+  },
+  {
+    "en": "thumb",
+    "ny": "chikhumo"
+  },
+  {
+    "en": "neck",
+    "ny": "mukose"
+  },
+  {
+    "en": "hair",
+    "ny": "sisi"
+  },
+  {
+    "en": "skin",
+    "ny": "nkanda"
+  },
+  {
+    "en": "blood",
+    "ny": "magazi"
+  },
+  {
+    "en": "bone",
+    "ny": "mabonzo"
+  },
+  {
+    "en": "teeth",
+    "ny": "meno"
+  },
+  {
+    "en": "tongue",
+    "ny": "lulimi"
+  },
+  {
+    "en": "voice",
+    "ny": "leuu"
+  },
+  {
+    "en": "face",
+    "ny": "finshi"
+  },
+  {
+    "en": "chest",
+    "ny": "chifuwa"
+  },
+  {
+    "en": "waist",
+    "ny": "musana"
+  },
+  {
+    "en": "t-shirt",
+    "ny": "t-sheti"
+  },
+  {
+    "en": "blouse",
+    "ny": "bulawuzi"
+  },
+  {
+    "en": "suit",
+    "ny": "suiti"
+  },
+  {
+    "en": "chitenge",
+    "ny": "chitenge"
+  },
+  {
+    "en": "jersey",
+    "ny": "jusi"
+  },
+  {
+    "en": "pant",
+    "ny": "kabudula"
+  },
+  {
+    "en": "earrings",
+    "ny": "masiqiwo"
+  },
+  {
+    "en": "chibuku",
+    "ny": "chibuku"
+  },
+  {
+    "en": "maheu",
+    "ny": "maheu"
+  },
+  {
+    "en": "groundnut stew",
+    "ny": "soupu ya twilo"
+  },
+  {
+    "en": "nyama",
+    "ny": "nyama"
+  },
+  {
+    "en": "inswa",
+    "ny": "inswa"
+  },
+  {
+    "en": "mbeba",
+    "ny": "mbeba"
+  },
+  {
+    "en": "munkoyo",
+    "ny": "munkoyo"
+  },
+  {
+    "en": "chibwantu",
+    "ny": "chibwantu"
+  },
+  {
+    "en": "wine",
+    "ny": "vinyo"
+  },
+  {
+    "en": "porridge",
+    "ny": "phala"
+  },
+  {
+    "en": "maize meal",
+    "ny": "sima"
+  },
+  {
+    "en": "cassava flour",
+    "ny": "unga wa tute"
+  },
+  {
+    "en": "groundnut powder",
+    "ny": "twilo"
+  },
+  {
+    "en": "soup",
+    "ny": "supu"
+  },
+  {
+    "en": "stew",
+    "ny": "mphodza"
+  },
+  {
+    "en": "cupboard",
+    "ny": "kabati"
+  },
+  {
+    "en": "sofa",
+    "ny": "muphando"
+  },
+  {
+    "en": "curtain",
+    "ny": "nsalu yotchinga"
+  },
+  {
+    "en": "doorstep",
+    "ny": "pakhomo"
+  },
+  {
+    "en": "corridor",
+    "ny": "njira"
+  },
+  {
+    "en": "roof tile",
+    "ny": "denga"
+  },
+  {
+    "en": "ceiling",
+    "ny": "kudenga"
+  },
+  {
+    "en": "socket",
+    "ny": "soketi"
+  },
+  {
+    "en": "mirror",
+    "ny": "galasi"
+  },
+  {
+    "en": "picture",
+    "ny": "chithunzi"
+  },
+  {
+    "en": "frame",
+    "ny": "chimango"
+  },
+  {
+    "en": "stove",
+    "ny": "mbaula"
+  },
+  {
+    "en": "oven",
+    "ny": "uvuni"
+  },
+  {
+    "en": "fridge",
+    "ny": "furiji"
+  },
+  {
+    "en": "wardrobe",
+    "ny": "zovala"
+  },
+  {
+    "en": "baobab",
+    "ny": "mabuyu"
+  },
+  {
+    "en": "mango tree",
+    "ny": "mutengo wa mango"
+  },
+  {
+    "en": "guava tree",
+    "ny": "mutengo wa maguava"
+  },
+  {
+    "en": "banana tree",
+    "ny": "nthochi"
+  },
+  {
+    "en": "stream",
+    "ny": "mtsinje"
+  },
+  {
+    "en": "cave",
+    "ny": "mphanga"
+  },
+  {
+    "en": "rock",
+    "ny": "mwala"
+  },
+  {
+    "en": "island",
+    "ny": "chilumba"
+  },
+  {
+    "en": "engineer",
+    "ny": "injiniya"
+  },
+  {
+    "en": "pilot",
+    "ny": "woyendetsa ndege"
+  },
+  {
+    "en": "lecturer",
+    "ny": "phunziro"
+  },
+  {
+    "en": "tailor",
+    "ny": "osoka"
+  },
+  {
+    "en": "shoemaker",
+    "ny": "opanga nsapato"
+  },
+  {
+    "en": "blacksmith",
+    "ny": "wosula zitsulo"
+  },
+  {
+    "en": "test",
+    "ny": "mayeso ya sikulu"
+  },
+  {
+    "en": "assignment",
+    "ny": "ntchito"
+  },
+  {
+    "en": "scissors",
+    "ny": "lumo"
+  },
+  {
+    "en": "mop",
+    "ny": "chikolopo"
+  },
+  {
+    "en": "wheelbarrow",
+    "ny": "ngolo"
+  },
+  {
+    "en": "paint",
+    "ny": "utoto"
+  },
+  {
+    "en": "brush",
+    "ny": "burashi"
+  },
+  {
+    "en": "drill",
+    "ny": "kobowolela"
+  },
+  {
+    "en": "cement",
+    "ny": "simenti"
+  },
+  {
+    "en": "plank",
+    "ny": "matabwe"
+  },
+  {
+    "en": "pipe",
+    "ny": "chitoliro"
+  },
+  {
+    "en": "cheetah",
+    "ny": "cheeta"
+  },
+  {
+    "en": "wild dog",
+    "ny": "galu"
+  },
+  {
+    "en": "hare",
+    "ny": "kalulu"
+  },
+  {
+    "en": "gecko",
+    "ny": "nalimata"
+  },
+  {
+    "en": "scorpion",
+    "ny": "chinkhanira"
+  },
+  {
+    "en": "snail",
+    "ny": "nkhono"
+  },
+  {
+    "en": "plough",
+    "ny": "kulima"
+  },
+  {
+    "en": "ox",
+    "ny": "chikochikala"
+  },
+  {
+    "en": "plant",
+    "ny": "chomera"
+  },
+  {
+    "en": "harvest",
+    "ny": "kukolola"
+  },
+  {
+    "en": "granary",
+    "ny": "nkhokwe"
+  },
+  {
+    "en": "fertilizer",
+    "ny": "fetereza"
+  },
+  {
+    "en": "pest",
+    "ny": "tizilombo"
+  },
+  {
+    "en": "weed",
+    "ny": "udzu"
+  },
+  {
+    "en": "soil",
+    "ny": "nthaka"
+  },
+  {
+    "en": "banana",
+    "ny": "nthochi"
+  },
+  {
+    "en": "orange",
+    "ny": "lalanje"
+  },
+  {
+    "en": "pineapple",
+    "ny": "chinanazi"
+  },
+  {
+    "en": "grape",
+    "ny": "mphesa"
+  },
+  {
+    "en": "lemon",
+    "ny": "mandimu"
+  },
+  {
+    "en": "maize",
+    "ny": "matabwe"
+  },
+  {
+    "en": "cassava",
+    "ny": "tute"
+  },
+  {
+    "en": "millet",
+    "ny": "mapira"
+  },
+  {
+    "en": "sorghum",
+    "ny": "manyuchi"
+  },
+  {
+    "en": "sweet potato",
+    "ny": "kandolo"
+  },
+  {
+    "en": "egg",
+    "ny": "dzira"
+  },
+  {
+    "en": "butter",
+    "ny": "batala"
+  },
+  {
+    "en": "milk",
+    "ny": "mkaka"
+  },
+  {
+    "en": "cheese",
+    "ny": "tchizi"
+  },
+  {
+    "en": "tomato",
+    "ny": "tomato"
+  },
+  {
+    "en": "onion",
+    "ny": "anyezi"
+  },
+  {
+    "en": "cabbage",
+    "ny": "kabichi"
+  },
+  {
+    "en": "carrot",
+    "ny": "karoti"
+  },
+  {
+    "en": "potato",
+    "ny": "mbatata"
+  },
+  {
+    "en": "beans",
+    "ny": "nyemba"
+  },
+  {
+    "en": "peas",
+    "ny": "nandolo"
+  },
+  {
+    "en": "spinach",
+    "ny": "sipinachi"
+  },
+  {
+    "en": "pumpkin",
+    "ny": "dzungu"
+  },
+  {
+    "en": "plum",
+    "ny": "maula"
+  },
+  {
+    "en": "peach",
+    "ny": "pichesi"
+  },
+  {
+    "en": "council",
+    "ny": "bungwe"
+  },
+  {
+    "en": "mayor",
+    "ny": "meya"
+  },
+  {
+    "en": "ward",
+    "ny": "wodi"
+  },
+  {
+    "en": "district",
+    "ny": "chigawo"
+  },
+  {
+    "en": "nation",
+    "ny": "fuko"
+  },
+  {
+    "en": "vote",
+    "ny": "voti"
+  },
+  {
+    "en": "illness",
+    "ny": "kudwala"
+  },
+  {
+    "en": "surgery",
+    "ny": "opaleshoni"
+  },
+  {
+    "en": "capsule",
+    "ny": "kapisozi"
+  },
+  {
+    "en": "syrup",
+    "ny": "manyuchi"
+  },
+  {
+    "en": "stretcher",
+    "ny": "machira"
+  },
+  {
+    "en": "patient",
+    "ny": "wodwala"
+  },
+  {
+    "en": "clinic",
+    "ny": "chipatala"
+  },
+  {
+    "en": "disease",
+    "ny": "matenda"
+  },
+  {
+    "en": "cough",
+    "ny": "chifuwa"
+  },
+  {
+    "en": "flu",
+    "ny": "chimfine"
+  },
+  {
+    "en": "injury",
+    "ny": "kuvulala"
+  },
+  {
+    "en": "wound",
+    "ny": "chilonda"
+  },
+  {
+    "en": "bleeding",
+    "ny": "kutuluka magazi"
+  },
+  {
+    "en": "tablet",
+    "ny": "piritsi"
+  },
+  {
+    "en": "vaccine",
+    "ny": "katemera"
+  },
+  {
+    "en": "cup",
+    "ny": "chikho"
+  },
+  {
+    "en": "plate",
+    "ny": "mbale"
+  },
+  {
+    "en": "spoon",
+    "ny": "supuni"
+  },
+  {
+    "en": "fork",
+    "ny": "foloko"
+  },
+  {
+    "en": "knife",
+    "ny": "mpeni"
+  },
+  {
+    "en": "pot",
+    "ny": "mphika"
+  },
+  {
+    "en": "bowl",
+    "ny": "mbale"
+  },
+  {
+    "en": "bucket",
+    "ny": "ndowa"
+  },
+  {
+    "en": "broom",
+    "ny": "chipyango"
+  },
+  {
+    "en": "blanket",
+    "ny": "bulangeti"
+  },
+  {
+    "en": "pillow",
+    "ny": "pilo"
+  },
+  {
+    "en": "lamp",
+    "ny": "nyale"
+  },
+  {
+    "en": "candle",
+    "ny": "kandulo"
+  },
+  {
+    "en": "soap",
+    "ny": "sopo"
+  },
+  {
+    "en": "towel",
+    "ny": "chopukutira"
+  },
+  {
+    "en": "toothbrush",
+    "ny": "mswachi"
+  },
+  {
+    "en": "toothpaste",
+    "ny": "mankhwala otsukira meno"
+  },
+  {
+    "en": "comb",
+    "ny": "chisakulo"
+  },
+  {
+    "en": "stool",
+    "ny": "chopondapo"
+  },
+  {
+    "en": "floor",
+    "ny": "pansi"
+  },
+  {
+    "en": "wall",
+    "ny": "chibumba"
+  },
+  {
+    "en": "roof",
+    "ny": "denga"
+  },
+  {
+    "en": "shake-shake",
+    "ny": "chibuku"
+  },
+  {
+    "en": "kapenta",
+    "ny": "kapenta"
+  },
+  {
+    "en": "goat meat",
+    "ny": "mbuzi"
+  },
+  {
+    "en": "beef",
+    "ny": "nyama"
+  },
+  {
+    "en": "chikanda",
+    "ny": "chikanda"
+  },
+  {
+    "en": "okrah",
+    "ny": "delele"
+  },
+  {
+    "en": "groundnuts",
+    "ny": "twilo"
+  },
+  {
+    "en": "cassava leaves",
+    "ny": "katapa"
+  },
+  {
+    "en": "sweet potato leaves",
+    "ny": "kalembula"
+  },
+  {
+    "en": "ifisashi",
+    "ny": "ifisashi"
+  },
+  {
+    "en": "chibwabwa",
+    "ny": "chibwabwa"
+  },
+  {
+    "en": "masuku",
+    "ny": "masuku"
+  },
+  {
+    "en": "tamarind",
+    "ny": "kawawasha"
+  },
+  {
+    "en": "stall",
+    "ny": "khola"
+  },
+  {
+    "en": "trader",
+    "ny": "wamalonda"
+  },
+  {
+    "en": "customer",
+    "ny": "kasitomala"
+  },
+  {
+    "en": "buyer",
+    "ny": "wogula"
+  },
+  {
+    "en": "seller",
+    "ny": "wogulitsa"
+  },
+  {
+    "en": "coin",
+    "ny": "ndalama"
+  },
+  {
+    "en": "note",
+    "ny": "zindikirani"
+  },
+  {
+    "en": "basket",
+    "ny": "dengu"
+  },
+  {
+    "en": "scale",
+    "ny": "sikelo"
+  },
+  {
+    "en": "weight",
+    "ny": "kulemera"
+  },
+  {
+    "en": "discount",
+    "ny": "kuchosako"
+  },
+  {
+    "en": "profit",
+    "ny": "phindu"
+  },
+  {
+    "en": "metal",
+    "ny": "zitsulo"
+  },
+  {
+    "en": "iron",
+    "ny": "chitsulo"
+  },
+  {
+    "en": "steel",
+    "ny": "zitsulo"
+  },
+  {
+    "en": "copper",
+    "ny": "mkuwa"
+  },
+  {
+    "en": "wood",
+    "ny": "nkhuni"
+  },
+  {
+    "en": "stone",
+    "ny": "mwala"
+  },
+  {
+    "en": "sand",
+    "ny": "muchenga"
+  },
+  {
+    "en": "clay",
+    "ny": "dongo"
+  },
+  {
+    "en": "glass",
+    "ny": "galasi"
+  },
+  {
+    "en": "plastic",
+    "ny": "pulasitiki"
+  },
+  {
+    "en": "paper",
+    "ny": "pepala"
+  },
+  {
+    "en": "cloth",
+    "ny": "nsalu"
+  },
+  {
+    "en": "leather",
+    "ny": "chikopa"
+  },
+  {
+    "en": "rope",
+    "ny": "chingwe"
+  },
+  {
+    "en": "okay",
+    "ny": "chabwino"
+  },
+  {
+    "en": "cool",
+    "ny": "zabwino"
+  },
+  {
+    "en": "boss",
+    "ny": "bwana"
+  },
+  {
+    "en": "thanks",
+    "ny": "zikomo"
+  },
+  {
+    "en": "hi",
+    "ny": "moni"
+  },
+  {
+    "en": "bye",
+    "ny": "pa"
+  },
+  {
+    "en": "smartphone",
+    "ny": "lamiya"
+  },
+  {
+    "en": "data",
+    "ny": "deta"
+  },
+  {
+    "en": "guitar",
+    "ny": "gitala"
+  },
+  {
+    "en": "river",
+    "ny": "mumana"
+  },
+  {
+    "en": "mountain",
+    "ny": "maphiri"
+  },
+  {
+    "en": "hill",
+    "ny": "phiri"
+  },
+  {
+    "en": "valley",
+    "ny": "chigwa"
+  },
+  {
+    "en": "forest",
+    "ny": "nkhalango"
+  },
+  {
+    "en": "bush",
+    "ny": "chitsamba"
+  },
+  {
+    "en": "grass",
+    "ny": "udzu"
+  },
+  {
+    "en": "root",
+    "ny": "mizu"
+  },
+  {
+    "en": "flower",
+    "ny": "duwa"
+  },
+  {
+    "en": "fruit",
+    "ny": "zipatso"
+  },
+  {
+    "en": "seed",
+    "ny": "mbewu"
+  },
+  {
+    "en": "field",
+    "ny": "munda"
+  },
+  {
+    "en": "farm",
+    "ny": "munda"
+  },
+  {
+    "en": "garden",
+    "ny": "munda"
+  },
+  {
+    "en": "wind",
+    "ny": "mphepo"
+  },
+  {
+    "en": "cloud",
+    "ny": "mtambo"
+  },
+  {
+    "en": "lightning",
+    "ny": "mphezi"
+  },
+  {
+    "en": "thunder",
+    "ny": "bingu"
+  },
+  {
+    "en": "sunrise",
+    "ny": "kuseni"
+  },
+  {
+    "en": "sunset",
+    "ny": "kumazulo"
+  },
+  {
+    "en": "one",
+    "ny": "modzi"
+  },
+  {
+    "en": "two",
+    "ny": "wiri"
+  },
+  {
+    "en": "three",
+    "ny": "tatu"
+  },
+  {
+    "en": "four",
+    "ny": "nayi"
+  },
+  {
+    "en": "five",
+    "ny": "sanu"
+  },
+  {
+    "en": "six",
+    "ny": "sanu n'chimodzi"
+  },
+  {
+    "en": "seven",
+    "ny": "sanu n'ziwiri"
+  },
+  {
+    "en": "eight",
+    "ny": "sanu n'zitatu"
+  },
+  {
+    "en": "nine",
+    "ny": "sanu n'zinayi"
+  },
+  {
+    "en": "ten",
+    "ny": "khumi"
+  },
+  {
+    "en": "hundred",
+    "ny": "chikwi chimodzi"
+  },
+  {
+    "en": "thousand",
+    "ny": "zikwi"
+  },
+  {
+    "en": "first",
+    "ny": "choyamba"
+  },
+  {
+    "en": "second",
+    "ny": "chachiwiri"
+  },
+  {
+    "en": "third",
+    "ny": "chachitatu"
+  },
+  {
+    "en": "groundnut",
+    "ny": "nshaba"
+  },
+  {
+    "en": "bean",
+    "ny": "nyemba"
+  },
+  {
+    "en": "pea",
+    "ny": "mwina"
+  },
+  {
+    "en": "okra",
+    "ny": "delele"
+  },
+  {
+    "en": "orange tree",
+    "ny": "mutengowa malalanje"
+  },
+  {
+    "en": "avocado",
+    "ny": "kotapila"
+  },
+  {
+    "en": "lemon tree",
+    "ny": "mutengo wa mandimu"
+  },
+  {
+    "en": "grapevine",
+    "ny": "mpesa"
+  },
+  {
+    "en": "cotton",
+    "ny": "thonje"
+  },
+  {
+    "en": "tobacco",
+    "ny": "fodya"
+  },
+  {
+    "en": "sugarcane",
+    "ny": "nzimbe"
+  },
+  {
+    "en": "teacher",
+    "ny": "mphunzitsi"
+  },
+  {
+    "en": "doctor",
+    "ny": "dokotala"
+  },
+  {
+    "en": "farmer",
+    "ny": "mlimi"
+  },
+  {
+    "en": "soldier",
+    "ny": "msilikali"
+  },
+  {
+    "en": "student",
+    "ny": "wophunzira"
+  },
+  {
+    "en": "shopkeeper",
+    "ny": "wogulitsa sitolo"
+  },
+  {
+    "en": "pastor",
+    "ny": "m'busa"
+  },
+  {
+    "en": "miner",
+    "ny": "wamgodi"
+  },
+  {
+    "en": "God",
+    "ny": "mulungu"
+  },
+  {
+    "en": "Jesus",
+    "ny": "yesu"
+  },
+  {
+    "en": "Bible",
+    "ny": "baibulo"
+  },
+  {
+    "en": "prayer",
+    "ny": "mphepelo"
+  },
+  {
+    "en": "choir",
+    "ny": "kwaya"
+  },
+  {
+    "en": "classroom",
+    "ny": "mkalasi"
+  },
+  {
+    "en": "pupil",
+    "ny": "wophunzira"
+  },
+  {
+    "en": "chalk",
+    "ny": "choko"
+  },
+  {
+    "en": "desk",
+    "ny": "desiki"
+  },
+  {
+    "en": "pencil",
+    "ny": "pensulo"
+  },
+  {
+    "en": "eraser",
+    "ny": "chofufutira"
+  },
+  {
+    "en": "bag",
+    "ny": "thumba"
+  },
+  {
+    "en": "notebook",
+    "ny": "kope"
+  },
+  {
+    "en": "exam",
+    "ny": "mayeso"
+  },
+  {
+    "en": "lesson",
+    "ny": "phunziro"
+  },
+  {
+    "en": "football",
+    "ny": "mpira"
+  },
+  {
+    "en": "soccer",
+    "ny": "mpira"
+  },
+  {
+    "en": "basketball",
+    "ny": "dengu"
+  },
+  {
+    "en": "volleyball",
+    "ny": "volebo"
+  },
+  {
+    "en": "boxing",
+    "ny": "nkhonya"
+  },
+  {
+    "en": "athletics",
+    "ny": "masewera othamanga"
+  },
+  {
+    "en": "running",
+    "ny": "kuthamanga"
+  },
+  {
+    "en": "swimming",
+    "ny": "kusambira"
+  },
+  {
+    "en": "cycling",
+    "ny": "kupalasa njinga"
+  },
+  {
+    "en": "wrestling",
+    "ny": "kulimbana"
+  },
+  {
+    "en": "board game",
+    "ny": "masewera a board"
+  },
+  {
+    "en": "cards",
+    "ny": "masewera a makadi"
+  },
+  {
+    "en": "chess",
+    "ny": "chesi"
+  },
+  {
+    "en": "drafts",
+    "ny": "zojambula"
+  },
+  {
+    "en": "computer",
+    "ny": "kompyuta"
+  },
+  {
+    "en": "radio",
+    "ny": "wailesi"
+  },
+  {
+    "en": "television",
+    "ny": "kanima"
+  },
+  {
+    "en": "camera",
+    "ny": "kamera"
+  },
+  {
+    "en": "battery",
+    "ny": "batire"
+  },
+  {
+    "en": "electricity",
+    "ny": "magetsi"
+  },
+  {
+    "en": "light",
+    "ny": "kuwala"
+  },
+  {
+    "en": "keyboard",
+    "ny": "makina"
+  },
+  {
+    "en": "screen",
+    "ny": "chophimba"
+  },
+  {
+    "en": "morning",
+    "ny": "m'mawa"
+  },
+  {
+    "en": "afternoon",
+    "ny": "madzulo"
+  },
+  {
+    "en": "evening",
+    "ny": "madzulo"
+  },
+  {
+    "en": "night",
+    "ny": "usiku"
+  },
+  {
+    "en": "day",
+    "ny": "tsiku"
+  },
+  {
+    "en": "week",
+    "ny": "sabata"
+  },
+  {
+    "en": "month",
+    "ny": "mwezi"
+  },
+  {
+    "en": "year",
+    "ny": "chaka"
+  },
+  {
+    "en": "hour",
+    "ny": "ola"
+  },
+  {
+    "en": "axe",
+    "ny": "nkhwangwa"
+  },
+  {
+    "en": "hammer",
+    "ny": "nyundo"
+  },
+  {
+    "en": "nail",
+    "ny": "msomali"
+  },
+  {
+    "en": "screw",
+    "ny": "manga"
+  },
+  {
+    "en": "needle",
+    "ny": "singano"
+  },
+  {
+    "en": "thread",
+    "ny": "ulusi"
+  },
+  {
+    "en": "shovel",
+    "ny": "fosholo"
+  },
+  {
+    "en": "spade",
+    "ny": "zokumbira"
+  },
+  {
+    "en": "panga",
+    "ny": "``````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````"
+  },
+  {
+    "en": "ladder",
+    "ny": "makwerero"
+  },
+  {
+    "en": "chain",
+    "ny": "unyolo"
+  },
+  {
+    "en": "respect",
+    "ny": "ulemu"
+  },
+  {
+    "en": "bride price",
+    "ny": "nsalamu"
+  },
+  {
+    "en": "lobola",
+    "ny": "nsalamu"
+  },
+  {
+    "en": "spirit",
+    "ny": "mzimu"
+  },
+  {
+    "en": "witch",
+    "ny": "ifweti"
+  },
+  {
+    "en": "truck",
+    "ny": "galimoto"
+  },
+  {
+    "en": "bicycle",
+    "ny": "njinga"
+  },
+  {
+    "en": "motorcycle",
+    "ny": "njinga yamoto"
+  },
+  {
+    "en": "train",
+    "ny": "sitima"
+  },
+  {
+    "en": "canoe",
+    "ny": "bwato"
+  },
+  {
+    "en": "aeroplane",
+    "ny": "ndeke"
+  },
+  {
+    "en": "bus stop",
+    "ny": "poyimitsa bus"
+  },
+  {
+    "en": "lorry",
+    "ny": "lori"
+  },
+  {
+    "en": "bicycle taxi",
+    "ny": "njinga"
+  },
+  {
+    "en": "footpath",
+    "ny": "nijra ya phazi"
+  },
+  {
+    "en": "coach",
+    "ny": "mphunzitsi"
+  },
+  {
+    "en": "motorbike",
+    "ny": "njinga yamoto"
+  },
+  {
+    "en": "terminal",
+    "ny": "pokwerera"
+  },
+  {
+    "en": "fuel",
+    "ny": "mafuta"
+  },
+  {
+    "en": "clutch",
+    "ny": "gwira"
+  },
+  {
+    "en": "gear",
+    "ny": "zida"
+  },
+  {
+    "en": "seat",
+    "ny": "mpando"
+  },
+  {
+    "en": "indicator",
+    "ny": "chizindikiro"
+  },
+  {
+    "en": "helmet",
+    "ny": "chisoti"
+  },
+  {
+    "en": "luggage",
+    "ny": "katundu"
+  },
+  {
+    "en": "suitcase",
+    "ny": "chola"
+  },
+  {
+    "en": "roundabout",
+    "ny": "kuzungulira"
+  },
+  {
+    "en": "sign",
+    "ny": "chizindikiro"
+  },
+  {
+    "en": "big",
+    "ny": "chikulu"
+  },
+  {
+    "en": "small",
+    "ny": "kang'ono"
+  },
+  {
+    "en": "good",
+    "ny": "chabwino"
+  },
+  {
+    "en": "bad",
+    "ny": "zoipa"
+  },
+  {
+    "en": "hot",
+    "ny": "kupiya"
+  },
+  {
+    "en": "cold",
+    "ny": "kuzizila"
+  },
+  {
+    "en": "new",
+    "ny": "chatsopano"
+  },
+  {
+    "en": "old",
+    "ny": "chakudala"
+  },
+  {
+    "en": "young",
+    "ny": "mufana"
+  },
+  {
+    "en": "fast",
+    "ny": "kuyendesa"
+  },
+  {
+    "en": "slow",
+    "ny": "paang'onopang'ono"
+  },
+  {
+    "en": "strong",
+    "ny": "wamphamvu"
+  },
+  {
+    "en": "weak",
+    "ny": "ofooka"
+  },
+  {
+    "en": "clean",
+    "ny": "woyera"
+  },
+  {
+    "en": "dirty",
+    "ny": "zakuda"
+  },
+  {
+    "en": "happy",
+    "ny": "wokondwa"
+  },
+  {
+    "en": "sad",
+    "ny": "wokwiya"
+  },
+  {
+    "en": "jump",
+    "ny": "kulumpha"
+  },
+  {
+    "en": "climb",
+    "ny": "kukwera"
+  },
+  {
+    "en": "cook",
+    "ny": "kupika"
+  },
+  {
+    "en": "wash",
+    "ny": "kusamba"
+  },
+  {
+    "en": "sweep",
+    "ny": "kupyanga"
+  },
+  {
+    "en": "dig",
+    "ny": "kukomba"
+  },
+  {
+    "en": "pull",
+    "ny": "kudonsa"
+  },
+  {
+    "en": "lift",
+    "ny": "kwezani"
+  },
+  {
+    "en": "throw",
+    "ny": "ponya"
+  },
+  {
+    "en": "catch",
+    "ny": "gwira"
+  },
+  {
+    "en": "speak",
+    "ny": "kamba"
+  },
+  {
+    "en": "talk",
+    "ny": "kulankhula"
+  },
+  {
+    "en": "shout",
+    "ny": "fuula"
+  },
+  {
+    "en": "sing",
+    "ny": "kuyemba"
+  },
+  {
+    "en": "laugh",
+    "ny": "kuseka"
+  },
+  {
+    "en": "cry",
+    "ny": "kulira"
+  },
+  {
+    "en": "smile",
+    "ny": "kusekilira"
+  },
+  {
+    "en": "rest",
+    "ny": "kupumura"
+  },
+  {
+    "en": "call",
+    "ny": "kuyetana"
+  },
+  {
+    "en": "sunshine",
+    "ny": "dzuwa"
+  },
+  {
+    "en": "fog",
+    "ny": "chifunga"
+  },
+  {
+    "en": "mist",
+    "ny": "nkhungu"
+  },
+  {
+    "en": "flood",
+    "ny": "chingumula"
+  },
+  {
+    "en": "drought",
+    "ny": "chipululu"
+  },
+  {
+    "en": "dry season",
+    "ny": "cisanu"
+  },
+  {
+    "en": "rainy season",
+    "ny": "cirimwe"
+  },
+  {
+    "en": "summer",
+    "ny": "chirimwe"
+  },
+  {
+    "en": "winter",
+    "ny": "dzinja"
+  },
+  {
+    "en": "spring",
+    "ny": "masika"
+  },
+  {
+    "en": "autumn",
+    "ny": "mphukira"
+  },
+  {
+    "en": "heat",
+    "ny": "kupiya"
+  },
+  {
+    "en": "guinea fowl",
+    "ny": "mbalame"
+  },
+  {
+    "en": "quail",
+    "ny": "zinziri"
+  },
+  {
+    "en": "well",
+    "ny": "chimugondi"
+  },
+  {
+    "en": "borehole",
+    "ny": "pachisime"
+  },
+  {
+    "en": "wildebeest",
+    "ny": "chilombo"
+  },
+  {
+    "en": "baboon",
+    "ny": "nyani"
+  },
+  {
+    "en": "porcupine",
+    "ny": "nungu"
+  },
+  {
+    "en": "python",
+    "ny": "nsato"
+  }
+]

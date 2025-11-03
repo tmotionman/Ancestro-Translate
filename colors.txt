@@ -1,0 +1,10 @@
+Ancestro App Color Codes
+Source: tailwind.config.cjs
+
+ancestro.primary = #2e0151
+ancestro.secondary = #ff4e00
+ancestro.neutral = #ffffff
+
+Notes:
+- These are the primary brand colors extracted from the project's Tailwind configuration.
+- If you'd like them exported in a different format (JSON, CSS variables, SCSS map), tell me which and I'll add it.
