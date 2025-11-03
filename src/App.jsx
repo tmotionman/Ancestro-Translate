@@ -172,8 +172,9 @@ function App() {
                     initial={{ opacity: 0, y: 20 }}
                     animate={{ opacity: 1, y: 0 }}
                     transition={{ delay: 0.5 }}
-                    className="grid grid-cols-1 sm:grid-cols-3 gap-4 mt-8"
-                  >
+                    // mobile and desktop: 3-column grid; reduce padding on mobile
+                    className="grid grid-cols-3 gap-4 mt-8">
+                  
                     {[
                       {
                         icon: <Search className="w-8 h-8 mx-auto text-[#2e0151]" />,
@@ -193,7 +194,7 @@ function App() {
                     ].map((feature, index) => (
                       <motion.div
                         key={index}
-                        className="p-4 rounded-lg bg-card border border-border/50 text-center hover:shadow-md transition-shadow"
+                        className="p-3 sm:p-4 rounded-lg bg-card border border-border/50 text-center hover:shadow-md transition-shadow"
                         whileHover={{ y: -4 }}
                       >
                         <div className="mb-2">{feature.icon}</div>
