@@ -122,12 +122,14 @@ export const SplashScreen = ({ onComplete }) => {
                 </motion.button>
               </motion.div>
 
-              {/* Powered by line on splash screen */}
-              <motion.div variants={itemVariants} className="pt-2">
-                <p className="text-xs text-muted-foreground/80">Powered by Nestro Ai</p>
-              </motion.div>
+              {/* Powered by line on splash screen (desktop kept below) - removed from mobile block */}
             </motion.div>
           </div>
+        </div>
+
+        {/* Mobile: Powered by at bottom */}
+        <div className="sm:hidden absolute bottom-4 left-0 w-full flex justify-center">
+          <p className="text-xs text-muted-foreground/80">Powered by Nestro Ai</p>
         </div>
 
         {/* Desktop: Original layout with animations and flags */}
