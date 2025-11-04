@@ -102,15 +102,10 @@ export const SplashScreen = ({ onComplete }) => {
                 </h1>
 
                 <div className="mt-1">
-                  <p className="text-sm font-semibold mb-1">
-                    <span className="bg-gradient-to-r from-[#ff4e00] to-orange-400 bg-clip-text text-transparent">
-                      Break free from
-                    </span>
-                  </p>
-                  <p className="text-sm font-semibold">
-                    <span className="bg-gradient-to-r from-[#ff4e00] to-orange-400 bg-clip-text text-transparent">
-                      Language Barriers
-                    </span>
+                  {/* Mobile: single-line tagline */}
+                  <p className="text-sm font-semibold whitespace-nowrap">
+                    <span className="bg-gradient-to-r from-[#ff4e00] to-orange-400 bg-clip-text text-transparent">Break free from&nbsp;</span>
+                    <span className="bg-gradient-to-r from-[#ff4e00] to-orange-400 bg-clip-text text-transparent">Language Barriers</span>
                   </p>
                 </div>
               </motion.div>
