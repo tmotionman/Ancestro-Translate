@@ -303,8 +303,8 @@ export const SplashScreen = ({ onComplete }) => {
           </motion.div>
           </motion.div>
         </div>
-        {/* Mobile: Powered by at viewport bottom */}
-        <div className="sm:hidden fixed bottom-4 left-0 w-full flex justify-center z-50">
+        {/* Mobile: Powered by placed near bottom-left (matches screenshot arrow) */}
+        <div className="sm:hidden fixed bottom-6 left-6 z-50">
           <p className="text-xs text-muted-foreground/80">Powered by Nestro Ai</p>
         </div>
       </div>
