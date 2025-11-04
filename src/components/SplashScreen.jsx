@@ -79,7 +79,7 @@ export const SplashScreen = ({ onComplete }) => {
           <div className="h-1/2 flex items-center justify-center" />
           
           {/* Content takes bottom half */}
-          <div className="h-1/2 flex flex-col items-center justify-center overflow-y-auto">
+          <div className="h-1/2 flex flex-col items-center justify-start overflow-y-auto pt-4">
             <motion.div
               variants={containerVariants}
               initial="hidden"
