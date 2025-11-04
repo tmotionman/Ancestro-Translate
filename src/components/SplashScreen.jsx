@@ -123,7 +123,7 @@ export const SplashScreen = ({ onComplete }) => {
               </motion.div>
 
               {/* Powered by line on splash screen (mobile) - placed directly under CTA */}
-              <div className="mt-3">
+              <div className="mt-10">
                 <p className="text-xs text-muted-foreground/80">Powered by Nestro Ai</p>
               </div>
             </motion.div>
