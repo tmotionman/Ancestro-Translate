@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import TranslateLogo from '../../ASSETS/Translate logo.svg';
+import LoadingVideo from '../../ASSETS/loading screen.mp4';
 import { motion } from 'framer-motion';
 
 export const SplashScreen = ({ onComplete }) => {
@@ -27,8 +28,8 @@ export const SplashScreen = ({ onComplete }) => {
 
   return (
     <div className="fixed inset-0 z-50 bg-gradient-to-br from-[#2e0151] via-[#3d0a5f] to-black overflow-hidden">
-      {/* Animated background elements */}
-      <div className="absolute inset-0 pointer-events-none">
+      {/* Animated background elements - hidden on mobile */}
+      <div className="absolute inset-0 pointer-events-none hidden sm:block">
         <motion.div
             // responsive: smaller and closer on mobile, larger on desktop
             className="absolute top-10 left-4 sm:top-20 sm:left-20 w-56 h-56 sm:w-96 sm:h-96 bg-[#ff4e00]/10 rounded-full blur-3xl"
@@ -57,17 +58,93 @@ export const SplashScreen = ({ onComplete }) => {
         />
       </div>
 
-      {/* Content */}
-      <div className="relative z-10 flex flex-col items-center justify-center min-h-screen px-4">
-        <motion.div
-          variants={containerVariants}
-          initial="hidden"
-          animate="visible"
-         // make max width adapt to smaller screens
-         className="text-center space-y-6 max-w-md sm:max-w-lg"
+      {/* Video on Mobile - Top Half */}
+      <div className="absolute inset-0 sm:hidden">
+        <video
+          autoPlay
+          muted
+          loop
+          playsInline
+          className="w-full h-1/2 object-cover"
         >
-          {/* Logo */}
-          <motion.div variants={itemVariants} className="flex justify-center">
+          <source src={LoadingVideo} type="video/mp4" />
+        </video>
+      </div>
+
+      {/* Content */}
+      <div className="relative z-10 flex flex-col items-center justify-center min-h-screen px-4 sm:min-h-screen">
+        {/* Mobile: Split layout with video on top */}
+        <div className="w-full sm:hidden flex flex-col h-screen">
+          {/* Video takes top half */}
+          <div className="h-1/2 flex items-center justify-center" />
+          
+          {/* Content takes bottom half */}
+          <div className="h-1/2 flex flex-col items-center justify-center overflow-y-auto">
+            <motion.div
+              variants={containerVariants}
+              initial="hidden"
+              animate="visible"
+              className="text-center space-y-4 max-w-sm"
+            >
+              {/* Logo */}
+              <motion.div variants={itemVariants} className="flex justify-center">
+                <motion.img
+                  src={TranslateLogo}
+                  alt="Translate logo"
+                  className="w-16 h-16 object-contain"
+                />
+              </motion.div>
+
+              {/* Main Title */}
+              <motion.div variants={itemVariants} className="space-y-1 text-center">
+                <h1 className="text-2xl font-bold text-white leading-tight">
+                  Welcome to Ancestro Translate.
+                </h1>
+
+                <div className="mt-1">
+                  <p className="text-sm font-semibold mb-1">
+                    <span className="bg-gradient-to-r from-[#ff4e00] to-orange-400 bg-clip-text text-transparent">
+                      Break free from
+                    </span>
+                  </p>
+                  <p className="text-sm font-semibold">
+                    <span className="bg-gradient-to-r from-[#ff4e00] to-orange-400 bg-clip-text text-transparent">
+                      Language Barriers
+                    </span>
+                  </p>
+                </div>
+              </motion.div>
+
+              {/* CTA Button */}
+              <motion.div variants={itemVariants} className="pt-3">
+                <motion.button
+                  onClick={onComplete}
+                  className="px-6 py-2 rounded-full bg-gradient-to-r from-[#ff4e00] to-orange-500 text-white font-semibold shadow-lg hover:shadow-xl transition-shadow"
+                  whileHover={{ scale: 1.03 }}
+                  whileTap={{ scale: 0.97 }}
+                >
+                  Get Started
+                </motion.button>
+              </motion.div>
+
+              {/* Powered by line on splash screen */}
+              <motion.div variants={itemVariants} className="pt-2">
+                <p className="text-xs text-muted-foreground/80">Powered by Nestro Ai</p>
+              </motion.div>
+            </motion.div>
+          </div>
+        </div>
+
+        {/* Desktop: Original layout with animations and flags */}
+        <div className="hidden sm:flex flex-col items-center justify-center w-full">
+          <motion.div
+            variants={containerVariants}
+            initial="hidden"
+            animate="visible"
+            className="text-center space-y-6 max-w-md sm:max-w-lg"
+          >
+            {/* Logo */}
+            <motion.div variants={itemVariants} className="flex justify-center">
             <motion.img
               src={TranslateLogo}
               alt="Translate logo"
@@ -97,8 +174,8 @@ export const SplashScreen = ({ onComplete }) => {
 
           {/* Subtitle removed as requested */}
 
-          {/* Language flags marquee (continuous scroll) */}
-          <motion.div variants={itemVariants} className="pt-6">
+          {/* Language flags marquee (continuous scroll) - hidden on mobile */}
+          <motion.div variants={itemVariants} className="pt-6 hidden sm:block">
             <div className="w-full overflow-hidden">
               <motion.div
                   // reduce spacing on mobile and flag sizes
@@ -230,7 +307,8 @@ export const SplashScreen = ({ onComplete }) => {
           <motion.div variants={itemVariants} className="pt-6">
             <p className="text-xs text-muted-foreground/80">Powered by Nestro Ai</p>
           </motion.div>
-        </motion.div>
+          </motion.div>
+        </div>
       </div>
     </div>
   );
