@@ -127,10 +127,7 @@ export const SplashScreen = ({ onComplete }) => {
           </div>
         </div>
 
-        {/* Mobile: Powered by at bottom */}
-        <div className="sm:hidden absolute bottom-4 left-0 w-full flex justify-center">
-          <p className="text-xs text-muted-foreground/80">Powered by Nestro Ai</p>
-        </div>
+        {/* Mobile: Powered by placeholder removed here; rendered at root bottom to anchor to viewport */}
 
         {/* Desktop: Original layout with animations and flags */}
         <div className="hidden sm:flex flex-col items-center justify-center w-full">
@@ -305,6 +302,10 @@ export const SplashScreen = ({ onComplete }) => {
             <p className="text-xs text-muted-foreground/80">Powered by Nestro Ai</p>
           </motion.div>
           </motion.div>
+        </div>
+        {/* Mobile: Powered by at viewport bottom */}
+        <div className="sm:hidden fixed bottom-4 left-0 w-full flex justify-center z-50">
+          <p className="text-xs text-muted-foreground/80">Powered by Nestro Ai</p>
         </div>
       </div>
     </div>
