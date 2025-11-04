@@ -79,28 +79,13 @@ export const SplashScreen = ({ onComplete }) => {
           <div className="h-1/2 flex items-center justify-center" />
           
           {/* Content takes bottom half */}
-          <div className="h-1/2 relative flex flex-col items-center justify-center overflow-y-auto bg-gradient-to-br from-[#2e0151] via-[#3d0a5f] to-black">
-            {/* Wavy SVG Top Border */}
-            <svg
-              className="absolute top-0 left-0 w-full h-auto"
-              viewBox="0 0 1200 120"
-              preserveAspectRatio="none"
-              style={{ transform: 'scaleY(-1)' }}
+          <div className="h-1/2 flex flex-col items-center justify-center overflow-y-auto">
+            <motion.div
+              variants={containerVariants}
+              initial="hidden"
+              animate="visible"
+              className="text-center space-y-4 max-w-sm"
             >
-              <path
-                d="M0,40 Q300,0 600,40 T1200,40 L1200,120 L0,120 Z"
-                fill="#2e0151"
-              />
-            </svg>
-
-            {/* Content - with padding to account for wavy border */}
-            <div className="relative pt-8">
-              <motion.div
-                variants={containerVariants}
-                initial="hidden"
-                animate="visible"
-                className="text-center space-y-4 max-w-sm"
-              >
               {/* Logo */}
               <motion.div variants={itemVariants} className="flex justify-center">
                 <motion.img
@@ -147,7 +132,6 @@ export const SplashScreen = ({ onComplete }) => {
                 <p className="text-xs text-muted-foreground/80">Powered by Nestro Ai</p>
               </motion.div>
             </motion.div>
-            </div>
           </div>
         </div>
 
@@ -161,41 +145,44 @@ export const SplashScreen = ({ onComplete }) => {
           >
             {/* Logo */}
             <motion.div variants={itemVariants} className="flex justify-center">
-              <motion.img
-                src={TranslateLogo}
-                alt="Translate logo"
-                className="w-20 h-20 sm:w-24 sm:h-24 md:w-28 md:h-28 object-contain"
-              />
-            </motion.div>
+            <motion.img
+              src={TranslateLogo}
+              alt="Translate logo"
+            className="w-20 h-20 sm:w-24 sm:h-24 md:w-28 md:h-28 object-contain"
+            />
+          </motion.div>
 
-            {/* Main Title */}
-            <motion.div variants={itemVariants} className="space-y-2 text-center">
-              <h1 className="text-4xl sm:text-5xl font-bold text-white leading-tight">
-                Welcome to Ancestro Translate.
-              </h1>
+          {/* Main Title */}
+          <motion.div variants={itemVariants} className="space-y-2 text-center">
+            <h1 className="text-4xl sm:text-5xl font-bold text-white leading-tight">
+            Welcome to Ancestro Translate.
+            </h1>
 
-              <div className="mt-1">
-                <p className="text-xl sm:text-2xl font-semibold mb-1">
-                  <span className="bg-gradient-to-r from-[#ff4e00] to-orange-400 bg-clip-text text-transparent">
-                    Break free from
-                  </span>
-                </p>
-                <p className="text-xl sm:text-2xl font-semibold">
-                  <span className="bg-gradient-to-r from-[#ff4e00] to-orange-400 bg-clip-text text-transparent">
-                    Language Barriers
-                  </span>
-                </p>
-              </div>
-            </motion.div>
+            <div className="mt-1">
+              <p className="text-xl sm:text-2xl font-semibold mb-1">
+                <span className="bg-gradient-to-r from-[#ff4e00] to-orange-400 bg-clip-text text-transparent">
+                  Break free from
+                </span>
+              </p>
+              <p className="text-xl sm:text-2xl font-semibold">
+                <span className="bg-gradient-to-r from-[#ff4e00] to-orange-400 bg-clip-text text-transparent">
+                  Language Barriers
+                </span>
+              </p>
+            </div>
+          </motion.div>
 
-            {/* Language flags marquee (continuous scroll) - hidden on mobile */}
-            <motion.div variants={itemVariants} className="pt-6 hidden sm:block">
-              <div className="w-full overflow-hidden">
-                <motion.div
+          {/* Subtitle removed as requested */}
+
+          {/* Language flags marquee (continuous scroll) - hidden on mobile */}
+          <motion.div variants={itemVariants} className="pt-6 hidden sm:block">
+            <div className="w-full overflow-hidden">
+              <motion.div
+                  // reduce spacing on mobile and flag sizes
                   className="flex items-center space-x-4 sm:space-x-6 w-max"
-                  animate={{ x: ["0%", "-50%"] }}
-                  transition={{ duration: 18, repeat: Infinity, ease: 'linear' }}
-                >
+                animate={{ x: ["0%", "-50%"] }}
+                transition={{ duration: 18, repeat: Infinity, ease: 'linear' }}
+              >
                 {/* block 1 */}
                 <div className="flex items-center space-x-4 pr-6">
               <div className="w-10 h-6 sm:w-12 sm:h-8 rounded-md overflow-hidden">
@@ -299,13 +286,13 @@ export const SplashScreen = ({ onComplete }) => {
                 </div>
               </motion.div>
             </div>
-            </motion.div>
+          </motion.div>
 
-            {/* CTA Button */}
-            <motion.div
-              variants={itemVariants}
-              className="pt-6"
-            >
+          {/* CTA Button */}
+          <motion.div
+            variants={itemVariants}
+            className="pt-6"
+          >
               <motion.button
                 onClick={onComplete}
                 className="px-6 py-2 sm:px-8 sm:py-3 rounded-full bg-gradient-to-r from-[#ff4e00] to-orange-500 text-white font-semibold shadow-lg hover:shadow-xl transition-shadow"
@@ -314,12 +301,12 @@ export const SplashScreen = ({ onComplete }) => {
               >
                 Get Started
               </motion.button>
-            </motion.div>
+          </motion.div>
 
-            {/* Powered by line on splash screen */}
-            <motion.div variants={itemVariants} className="pt-6">
-              <p className="text-xs text-muted-foreground/80">Powered by Nestro Ai</p>
-            </motion.div>
+          {/* Powered by line on splash screen */}
+          <motion.div variants={itemVariants} className="pt-6">
+            <p className="text-xs text-muted-foreground/80">Powered by Nestro Ai</p>
+          </motion.div>
           </motion.div>
         </div>
       </div>
