@@ -122,7 +122,10 @@ export const SplashScreen = ({ onComplete }) => {
                 </motion.button>
               </motion.div>
 
-              {/* Powered by line on splash screen (desktop kept below) - removed from mobile block */}
+              {/* Powered by line on splash screen (mobile) - placed directly under CTA */}
+              <div className="mt-3">
+                <p className="text-xs text-muted-foreground/80">Powered by Nestro Ai</p>
+              </div>
             </motion.div>
           </div>
         </div>
@@ -303,10 +306,7 @@ export const SplashScreen = ({ onComplete }) => {
           </motion.div>
           </motion.div>
         </div>
-        {/* Mobile: Powered by placed near bottom-left (matches screenshot arrow) */}
-        <div className="sm:hidden fixed bottom-6 left-6 z-50">
-          <p className="text-xs text-muted-foreground/80">Powered by Nestro Ai</p>
-        </div>
+        
       </div>
     </div>
   );
